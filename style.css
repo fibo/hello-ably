@@ -9,11 +9,12 @@ body {
 
 .slider {
   position: absolute;
-  top: 40vh;
+  top: 20vh;
   left: 0;
   cursor: pointer;
-  width: 100%;
+  width: 90%;
   height: 20vh;
+  margin: 5%;
   -webkit-appearance: none;
   z-index: 200;
   border: 1px solid #e6e6e6;
@@ -23,6 +24,10 @@ body {
   background-image: -moz-linear-gradient(right, #e6e6e6, #d2d2d2);
   background-image: -ms-linear-gradient(right, #e6e6e6, #d2d2d2);
   background-image: -o-linear-gradient(right, #e6e6e6, #d2d2d2);
+
+  -webkit-border-radius: 20vh;
+  -moz-border-radius: 20vh;
+  border-radius: 20vh;
 }
 
 .slider:focus {
@@ -40,4 +45,8 @@ body {
   background-image: -moz-linear-gradient(right, #4DDBFF, #00CCFF);
   background-image: -ms-linear-gradient(right, #4DDBFF, #00CCFF);
   background-image: -o-linear-gradient(right, #4DDBFF, #00CCFF);
+
+  -webkit-border-radius: 20vh;
+  -moz-border-radius: 20vh;
+  border-radius: 20vh;
 }
